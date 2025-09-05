@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Space Explorer - Cosmic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Starfield Background -->
+    <div class="stars-container">
+        <div class="stars stars-small"></div>
+        <div class="stars stars-medium"></div>
+        <div class="stars stars-large"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Cosmic Navigation -->
+    <nav class="nav cosmic-nav" id="navigation">
+        <div class="nav__container">
+            <div class="nav__logo glow-text">
+                <a href="#home">SE</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Command Center</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Explorer Profile</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Navigation Systems</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Mission Archives</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Academy Records</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Mission Log</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Mission Control</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="cosmic-glow-border"></div>
+    </nav>
+
+    <!-- Hero Section - Cosmic Command Center -->
+    <section class="hero cosmic-hero" id="home">
+        <video class="hero__video" autoplay muted loop playsinline>
+            <source src="WhatsApp-Video-2025-09-04-at-20.40.27_d613affc.mp4" type="video/mp4">
+            <div class="hero__fallback"></div>
+        </video>
+        <div class="hero__overlay cosmic-overlay"></div>
+        <div class="nebula-overlay"></div>
+        <div class="hero__content cosmic-content">
+            <h1 class="hero__title cosmic-title glow-text">Digital Space Explorer</h1>
+            <p class="hero__subtitle cosmic-subtitle typewriter">BTech Computer Science • Cosmic Code Navigator</p>
+            <p class="hero__description">Exploring the digital cosmos through code and innovation</p>
+            <a href="#projects" class="btn btn--cosmic hero__cta pulse-glow">Explore My Universe</a>
+            <div class="cosmic-stats">
+                <div class="stat-item">
+                    <span class="stat-number">47</span>
+                    <span class="stat-label">Missions Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">1247</span>
+                    <span class="stat-label">Code Commits</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Star Systems</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll cosmic-scroll">
+            <div class="hero__scroll-icon"></div>
+        </div>
+        <div class="hero__video-controls cosmic-controls">
+            <button class="video-control cosmic-btn" id="video-toggle">⏸️</button>
+        </div>
+    </section>
+
+    <!-- About Section - Explorer Profile -->
+    <section class="section about cosmic-section" id="about">
+        <div class="container">
+            <h2 class="section__title cosmic-title">About the Explorer</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>I'm a passionate BTech Computer Science student in my second year, navigating the vast digital cosmos with curiosity and innovation. My stellar journey began with a fascination for quantum problem-solving and has evolved into mastery of cutting-edge space-age technologies.</p>
+                    <p>Currently stationed at Galactic Technical University, I'm actively engaged in exploring advanced cosmic development practices. My mission: to contribute to the digital universe while continuously expanding my knowledge across multiple star systems.</p>
+                    <div class="about__highlights cosmic-highlights">
+                        <div class="highlight cosmic-card">
+                            <div class="highlight-icon">🌟</div>
+                            <h4>Stellar Performance</h4>
+                            <p>Maintaining 8.5/10 rating while exploring diverse cosmic domains</p>
+                        </div>
+                        <div class="highlight cosmic-card">
+                            <div class="highlight-icon">🚀</div>
+                            <h4>Mission Experience</h4>
+                            <p>Built multiple stellar applications and AI systems</p>
+                        </div>
+                        <div class="highlight cosmic-card">
+                            <div class="highlight-icon">🌌</div>
+                            <h4>Continuous Exploration</h4>
+                            <p>Always discovering new technologies across the galaxy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <div class="profile-placeholder cosmic-avatar">
+                        <div class="profile-icon">👨‍🚀</div>
+                        <div class="cosmic-ring"></div>
+                        <div class="cosmic-ring-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section - Navigation Systems -->
+    <section class="section skills cosmic-section" id="skills">
+        <div class="container">
+            <h2 class="section__title cosmic-title">Technical Arsenal</h2>
+            <div class="skills__grid constellation-grid">
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>JavaScript</h3>
+                        <span class="skill-percentage glow-text">85%</span>
+                    </div>
+                    <div class="skill-category">Navigation Systems</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="85"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>Python</h3>
+                        <span class="skill-percentage glow-text">90%</span>
+                    </div>
+                    <div class="skill-category">Core Propulsion</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="90"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>HTML/CSS</h3>
+                        <span class="skill-percentage glow-text">95%</span>
+                    </div>
+                    <div class="skill-category">Interface Design</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="95"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>React</h3>
+                        <span class="skill-percentage glow-text">75%</span>
+                    </div>
+                    <div class="skill-category">Quantum Computing</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="75"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>Node.js</h3>
+                        <span class="skill-percentage glow-text">70%</span>
+                    </div>
+                    <div class="skill-category">Server Architecture</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="70"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>Data Structures</h3>
+                        <span class="skill-percentage glow-text">80%</span>
+                    </div>
+                    <div class="skill-category">Information Matrix</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="80"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>Machine Learning</h3>
+                        <span class="skill-percentage glow-text">65%</span>
+                    </div>
+                    <div class="skill-category">AI Intelligence</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="65"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+                <div class="skill-card cosmic-card">
+                    <div class="skill-card__header">
+                        <h3>Database Management</h3>
+                        <span class="skill-percentage glow-text">75%</span>
+                    </div>
+                    <div class="skill-category">Data Storage</div>
+                    <div class="skill-bar cosmic-bar">
+                        <div class="skill-progress cosmic-progress" data-skill="75"></div>
+                        <div class="energy-particles"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section - Mission Archives -->
+    <section class="section projects cosmic-section" id="projects">
+        <div class="container">
+            <h2 class="section__title cosmic-title">Mission Archives</h2>
+            <div class="projects__grid stellar-grid">
+                <div class="project-card space-station">
+                    <div class="project-card__image">
+                        <div class="project-placeholder">🤖</div>
+                        <div class="cosmic-overlay-project"></div>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>Cosmic Movie Finder</h3>
+                        <div class="project-type">AI Mission</div>
+                        <p>AI-powered recommendation system for discovering entertainment across the galaxy</p>
+                        <div class="project-tech">
+                            <span class="tech-tag cosmic-tag">Python</span>
+                            <span class="tech-tag cosmic-tag">Flask</span>
+                            <span class="tech-tag cosmic-tag">Pandas</span>
+                            <span class="tech-tag cosmic-tag">Neural Networks</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--outline-cosmic btn--sm" target="_blank">GitHub</a>
+                            <a href="#" class="btn btn--cosmic btn--sm" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                    <div class="energy-trail"></div>
+                </div>
+                <div class="project-card space-station">
+                    <div class="project-card__image">
+                        <div class="project-placeholder">🛸</div>
+                        <div class="cosmic-overlay-project"></div>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>Interstellar Marketplace</h3>
+                        <div class="project-type">Commerce Station</div>
+                        <p>Full-spectrum trading platform for cosmic commerce and digital transactions</p>
+                        <div class="project-tech">
+                            <span class="tech-tag cosmic-tag">React</span>
+                            <span class="tech-tag cosmic-tag">Node.js</span>
+                            <span class="tech-tag cosmic-tag">Cosmic-DB</span>
+                            <span class="tech-tag cosmic-tag">Quantum-Pay</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--outline-cosmic btn--sm" target="_blank">GitHub</a>
+                            <a href="#" class="btn btn--cosmic btn--sm" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                    <div class="energy-trail"></div>
+                </div>
+                <div class="project-card space-station">
+                    <div class="project-card__image">
+                        <div class="project-placeholder">🛰️</div>
+                        <div class="cosmic-overlay-project"></div>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>Mission Control Dashboard</h3>
+                        <div class="project-type">Control System</div>
+                        <p>Command center for organizing space missions and tracking objectives</p>
+                        <div class="project-tech">
+                            <span class="tech-tag cosmic-tag">HTML</span>
+                            <span class="tech-tag cosmic-tag">CSS</span>
+                            <span class="tech-tag cosmic-tag">JavaScript</span>
+                            <span class="tech-tag cosmic-tag">Local Storage</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--outline-cosmic btn--sm" target="_blank">GitHub</a>
+                            <a href="#" class="btn btn--cosmic btn--sm" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                    <div class="energy-trail"></div>
+                </div>
+                <div class="project-card space-station">
+                    <div class="project-card__image">
+                        <div class="project-placeholder">🌍</div>
+                        <div class="cosmic-overlay-project"></div>
+                    </div>
+                    <div class="project-card__content">
+                        <h3>Atmospheric Analyzer</h3>
+                        <div class="project-type">Analysis Tool</div>
+                        <p>Real-time planetary weather system with cosmic location services</p>
+                        <div class="project-tech">
+                            <span class="tech-tag cosmic-tag">JavaScript</span>
+                            <span class="tech-tag cosmic-tag">Space APIs</span>
+                            <span class="tech-tag cosmic-tag">Stellar Charts</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn--outline-cosmic btn--sm" target="_blank">GitHub</a>
+                            <a href="#" class="btn btn--cosmic btn--sm" target="_blank">Launch</a>
+                        </div>
+                    </div>
+                    <div class="energy-trail"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section - Academy Records -->
+    <section class="section education cosmic-section" id="education">
+        <div class="container">
+            <h2 class="section__title cosmic-title">Academy Records</h2>
+            <div class="timeline cosmic-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker stellar-marker"></div>
+                    <div class="timeline-content cosmic-card">
+                        <h3>Bachelor of Technology - Computer Science</h3>
+                        <h4>Galactic Technical University</h4>
+                        <p class="timeline-duration">2023 - 2027</p>
+                        <p class="timeline-status status--active">Active Mission (Second Year Cadet)</p>
+                        <p class="achievement">Stellar Performance: 8.5/10</p>
+                        <p>Specialization: Digital Space Exploration</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker stellar-marker"></div>
+                    <div class="timeline-content cosmic-card">
+                        <h3>Space Academy Preparation</h3>
+                        <h4>Cosmic Preparatory Institute</h4>
+                        <p class="timeline-duration">2021 - 2023</p>
+                        <p class="timeline-status status--completed">Mission Completed</p>
+                        <p class="achievement">Excellence Rating: 92%</p>
+                        <p>Specialization: Advanced Mathematics & Physics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section - Mission Log -->
+    <section class="section experience cosmic-section" id="experience">
+        <div class="container">
+            <h2 class="section__title cosmic-title">Mission Log</h2>
+            <div class="experience__grid cosmic-grid">
+                <div class="experience-card spaceship-card">
+                    <div class="experience-card__header">
+                        <h3>Junior Space Engineer</h3>
+                        <h4>Interstellar Tech Consortium</h4>
+                        <p class="experience-duration">Summer 2024</p>
+                        <div class="mission-type">Research Expedition</div>
+                    </div>
+                    <div class="experience-card__content">
+                        <p>Developed cosmic interfaces and learned advanced space-age development practices</p>
+                    </div>
+                </div>
+                <div class="experience-card spaceship-card">
+                    <div class="experience-card__header">
+                        <h3>Code Navigation Instructor</h3>
+                        <h4>Space Academy</h4>
+                        <p class="experience-duration">2024 - Present</p>
+                        <div class="mission-type">Training Mission</div>
+                    </div>
+                    <div class="experience-card__content">
+                        <p>Guiding first-year cadets through the fundamentals of digital exploration</p>
+                    </div>
+                </div>
+                <div class="experience-card spaceship-card">
+                    <div class="experience-card__header">
+                        <h3>Stellar Observatory Assistant</h3>
+                        <h4>University Research Station</h4>
+                        <p class="experience-duration">2023 - 2024</p>
+                        <div class="mission-type">Research Mission</div>
+                    </div>
+                    <div class="experience-card__content">
+                        <p>Analyzed cosmic data patterns and stellar formations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Mission Control -->
+    <section class="section contact cosmic-section" id="contact">
+        <div class="container">
+            <h2 class="section__title cosmic-title">Establish Contact</h2>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact-item cosmic-card">
+                        <div class="contact-icon">📡</div>
+                        <div>
+                            <h4>Quantum Communications</h4>
+                            <p>explorer@cosmic-university.edu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item cosmic-card">
+                        <div class="contact-icon">📊</div>
+                        <div>
+                            <h4>Direct Channel</h4>
+                            <p>+91 XXXXX XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item cosmic-card">
+                        <div class="contact-icon">🌌</div>
+                        <div>
+                            <h4>Sector Location</h4>
+                            <p>Space Academy Quadrant</p>
+                        </div>
+                    </div>
+                    <div class="social-links cosmic-links">
+                        <a href="https://github.com/cosmic-explorer" target="_blank" class="social-link cosmic-link">GitHub Station</a>
+                        <a href="https://linkedin.com/in/space-navigator" target="_blank" class="social-link cosmic-link">LinkedIn Network</a>
+                        <a href="https://cosmic-portfolio.space" target="_blank" class="social-link cosmic-link">Portfolio Hub</a>
+                    </div>
+                </div>
+                <form class="contact__form cosmic-form" id="contact-form">
+                    <div class="form-group">
+                        <label class="form-label cosmic-label">Explorer Name</label>
+                        <input type="text" class="form-control cosmic-input" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label cosmic-label">Quantum Channel</label>
+                        <input type="email" class="form-control cosmic-input" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label cosmic-label">Mission Brief</label>
+                        <input type="text" class="form-control cosmic-input" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label cosmic-label">Transmission Data</label>
+                        <textarea class="form-control cosmic-input" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--cosmic btn--full-width pulse-glow">Initiate Contact</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer cosmic-footer">
+        <div class="container">
+            <p>&copy; 2025 Digital Space Explorer. All rights reserved across the galaxy.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
